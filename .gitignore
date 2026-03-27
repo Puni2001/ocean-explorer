@@ -1,0 +1,23 @@
+# Maven / Java build outputs
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Local Maven repository cache used during builds
+.m2repo/
+
+# IntelliJ / IDE files
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
