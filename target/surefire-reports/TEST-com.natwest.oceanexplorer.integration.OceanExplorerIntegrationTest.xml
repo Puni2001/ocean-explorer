@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest" time="0.048" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/punith/IdeaProjects/ocean-explorer/target/test-classes:/Users/punith/IdeaProjects/ocean-explorer/target/classes:/Users/punith/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/punith/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/punith/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/punith/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/punith/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/punith/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/punith/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/punith/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/punith/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/punith/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/punith/IdeaProjects/ocean-explorer/target/surefire/surefirebooter-20260327224851297_3.jar /Users/punith/IdeaProjects/ocean-explorer/target/surefire 2026-03-27T22-48-51_263-jvmRun1 surefire-20260327224851297_1tmp surefire_0-20260327224851297_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/punith/IdeaProjects/ocean-explorer/target/test-classes:/Users/punith/IdeaProjects/ocean-explorer/target/classes:/Users/punith/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/punith/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/punith/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/punith/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/punith/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/punith/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/punith/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/punith/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/punith/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/punith/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/punith"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/punith/IdeaProjects/ocean-explorer"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/punith/IdeaProjects/ocean-explorer/target/surefire/surefirebooter-20260327224851297_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="punith"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/punith/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/1t/k6sz77g96_z5m_nlnc2k1z000000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/punith/IdeaProjects/ocean-explorer"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/punith/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="completeMissionSimulation" classname="com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest" time="0.014">
+    <system-err><![CDATA[[main] INFO com.natwest.oceanexplorer.core.Probe - Probe initialized at (0, 0) facing NORTH ↑
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Probe MISSION-001 initialized at position (0, 0) facing NORTH ↑
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 17 commands on probe MISSION-001
+[main] INFO com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest - Mission completed:
+========================================
+EXPLORATION REPORT - Probe MISSION-001
+Generated: Fri Mar 27 22:48:51 IST 2026
+========================================
+
+EXPLORATION STATISTICS:
+-----------------------
+total distance traveled       : 11.0
+unique positions visited      : 11
+revisit count                 : 1
+exploration efficiency        : 0.9166666666666666
+command success rate          : 1.0
+
+COMMAND STATISTICS:
+-------------------
+LEFT       - Executions: 3, Success Rate: 100.00%
+FORWARD    - Executions: 10, Success Rate: 100.00%
+RIGHT      - Executions: 3, Success Rate: 100.00%
+BACKWARD   - Executions: 1, Success Rate: 100.00%
+
+EXPLORATION PATH (last 10 positions):
+------------------------------------
+  (0, 2)
+  (1, 2)
+  (2, 2)
+  (2, 3)
+  (2, 4)
+  (3, 4)
+  (2, 4)
+  (1, 4)
+  (0, 4)
+  (0, 5)
+
+========================================
+
+]]></system-err>
+  </testcase>
+  <testcase name="concurrentCommandExecution" classname="com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest" time="0.009">
+    <system-err><![CDATA[[main] INFO com.natwest.oceanexplorer.core.Probe - Probe initialized at (5, 5) facing NORTH ↑
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Probe 4e3a86e2-c409-4d2b-9a36-788712326bd5 initialized at position (5, 5) facing NORTH ↑
+[pool-2-thread-1] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-2] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-3] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-4] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-5] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-3] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-4] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-2] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-5] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[pool-2-thread-3] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 20 commands on probe 4e3a86e2-c409-4d2b-9a36-788712326bd5
+[main] INFO com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest - Concurrent test completed: 200 commands executed
+]]></system-err>
+  </testcase>
+  <testcase name="boundaryNavigationTest" classname="com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest" time="0.001">
+    <system-err><![CDATA[[main] INFO com.natwest.oceanexplorer.core.Probe - Probe initialized at (0, 0) facing SOUTH ↓
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Probe 3afa5bf7-fbc2-4363-93f3-624d7561e10c initialized at position (0, 0) facing SOUTH ↓
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 4 commands on probe 3afa5bf7-fbc2-4363-93f3-624d7561e10c
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (0, -1) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (0, -1) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (0, -1) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (0, -1) - outside grid boundaries
+]]></system-err>
+  </testcase>
+  <testcase name="obstacleAvoidanceTest" classname="com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest" time="0">
+    <system-err><![CDATA[[main] INFO com.natwest.oceanexplorer.core.Probe - Probe initialized at (5, 1) facing NORTH ↑
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Probe 8e960cea-6003-4c59-ac24-0162fe36c865 initialized at position (5, 1) facing NORTH ↑
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 5 commands on probe 8e960cea-6003-4c59-ac24-0162fe36c865
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (5, 2) - obstacle detected
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (5, 2) - obstacle detected
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (5, 2) - obstacle detected
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (5, 2) - obstacle detected
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (5, 2) - obstacle detected
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 14 commands on probe 8e960cea-6003-4c59-ac24-0162fe36c865
+]]></system-err>
+  </testcase>
+  <testcase name="performanceTest" classname="com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest" time="0.018">
+    <system-err><![CDATA[[main] INFO com.natwest.oceanexplorer.core.Probe - Probe initialized at (50, 50) facing NORTH ↑
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Probe e00ad74e-5929-48a3-80db-ff5cb0e03708 initialized at position (50, 50) facing NORTH ↑
+[main] INFO com.natwest.oceanexplorer.api.ProbeController - Executing 10000 commands on probe e00ad74e-5929-48a3-80db-ff5cb0e03708
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command BACKWARD prevented: Cannot move to (-1, 40) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command BACKWARD prevented: Cannot move to (-1, 42) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 43) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 43) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 43) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 44) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 56) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 56) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command BACKWARD prevented: Cannot move to (-1, 57) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command BACKWARD prevented: Cannot move to (-1, 57) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 60) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 64) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command BACKWARD prevented: Cannot move to (-1, 64) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command BACKWARD prevented: Cannot move to (-1, 64) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command BACKWARD prevented: Cannot move to (-1, 64) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 66) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 66) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command BACKWARD prevented: Cannot move to (-1, 67) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 65) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 65) - outside grid boundaries
+[main] WARN com.natwest.oceanexplorer.api.ProbeController - Command FORWARD prevented: Cannot move to (-1, 65) - outside grid boundaries
+[main] INFO com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest - Performance test results:
+[main] INFO com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest -   Total commands: 10,000
+[main] INFO com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest -   Execution time: 14 ms
+[main] INFO com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest -   Commands/second: 714285.7142857143
+[main] INFO com.natwest.oceanexplorer.integration.OceanExplorerIntegrationTest -   Unique positions: 1502
+]]></system-err>
+  </testcase>
+</testsuite>

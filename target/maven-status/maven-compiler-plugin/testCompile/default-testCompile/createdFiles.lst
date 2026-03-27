@@ -1,0 +1,5 @@
+com/natwest/oceanexplorer/unit/PositionTest.class
+com/natwest/oceanexplorer/unit/CommandTest.class
+com/natwest/oceanexplorer/unit/GridTest.class
+com/natwest/oceanexplorer/unit/DirectionTest.class
+com/natwest/oceanexplorer/integration/OceanExplorerIntegrationTest.class
